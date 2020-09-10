@@ -9,6 +9,9 @@
 ## Usage
 
 ```javascript
+
+import "longpressjs";
+
 const h1 = document.querySelector("h1");
 h1.addEventListener("longpress", function (e) {
   console.log(e);
