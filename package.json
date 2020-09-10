@@ -1,0 +1,20 @@
+{
+  "name": "longpressjs",
+  "version": "1.0.0",
+  "description": "lightweight longpress library",
+  "main": "longpress.babel.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "touch",
+    "event",
+    "longpress",
+    "mousevent"
+  ],
+  "author": "Cris Fandiño Jr.",
+  "license": "MIT"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .long-press {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background: yellow;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="long-press">
+      <h3>H3</h3>
+      <h1>hello</h1>
+      <h2>hello</h2>
+    </div>
+    <script src="../longpress.babel.js"></script>
+    <script>
+      const lp = document.querySelector(".long-press h1");
+
+      window.addEventListener(
+        "longpress-1500",
+        function (e) {
+          console.log(e);
+        },
+        true
+      );
+    </script>
+  </body>
+</html>
