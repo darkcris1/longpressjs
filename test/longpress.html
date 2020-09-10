@@ -20,19 +20,26 @@
     <div class="long-press">
       <h3>H3</h3>
       <h1>hello</h1>
+      `
       <h2>hello</h2>
     </div>
     <script src="../longpress.babel.js"></script>
     <script>
       const lp = document.querySelector(".long-press h1");
 
-      window.addEventListener(
+      document.documentElement.addEventListener(
         "longpress-1500",
         function (e) {
-          console.log(e);
+          e.target.remove();
+          setTimeout(() => {
+            alert(e.delay);
+          }, 100);
         },
         true
       );
+      lp.addEventListener("longpress-100", (e) => {
+        e.target.remove();
+      });
     </script>
   </body>
 </html>
