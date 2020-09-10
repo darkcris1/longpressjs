@@ -2,19 +2,27 @@
   "name": "longpressjs",
   "version": "1.0.0",
   "description": "lightweight longpress library",
-  "main": "longpress.babel.js",
+  "main": "longpress.babel-min.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkcris1/longpressjs.git"
+  },
   "keywords": [
-    "touch",
-    "event",
     "longpress",
-    "mousevent"
+    "touch",
+    "mouse",
+    "event"
   ],
-  "author": "Cris Fandiño Jr.",
-  "license": "MIT"
+  "author": "Cris Fandiño",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkcris1/longpressjs/issues"
+  },
+  "homepage": "https://github.com/darkcris1/longpressjs#readme"
 }
