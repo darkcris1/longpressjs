@@ -1,5 +1,7 @@
 # Lonpress JS
 
+### Less than 1kb minified version
+
 ## Installation
 
 ```bash
@@ -9,7 +11,6 @@
 ## Usage
 
 ```javascript
-
 import "longpressjs";
 
 const h1 = document.querySelector("h1");

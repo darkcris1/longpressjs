@@ -1,6 +1,6 @@
 {
   "name": "longpressjs",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "lightweight longpress library",
   "main": "longpress.babel-min.js",
   "directories": {
